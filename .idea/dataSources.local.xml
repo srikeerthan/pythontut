@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Django default" uuid="275610bc-d841-484f-af48-00c8248aab2e">
+      <user-name>root</user-name>
+      <user-password>dfd9dfd8dfc3dfc1</user-password>
+      <schema-pattern>creditcarddb.*</schema-pattern>
+      <default-schemas>creditcarddb.*</default-schemas>
+    </data-source>
+    <data-source name="Django default2" uuid="12fd5a62-f164-46f0-805d-873c1697ff5a">
+      <user-name>root</user-name>
+      <user-password>dfd9dfd8dfc3dfc1</user-password>
+      <schema-pattern>creditcarddb.*</schema-pattern>
+      <default-schemas>creditcarddb.*</default-schemas>
+    </data-source>
+  </component>
+</project>

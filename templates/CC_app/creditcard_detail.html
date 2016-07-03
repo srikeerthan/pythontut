@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>details</title>
+    <style>
+        td{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>{{ name.name }} card details</h1>
+<table>
+    <th>expirey date</th>
+    <th>type</th>
+    <th>friendyName</th>
+    <th>Card number</th>
+    <tr>
+        <td>{{ name.expDate }}</td>
+        <td>{{name.type}}</td>
+        <td>{{ name.friendlyName }}</td>
+        <td>{{ name.cardNumber }}</td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>listview</title>
+    <style>
+        tr:hover {
+          background-color: #ffff99;
+        }
+    </style>
+</head>
+<body>
+<center>
+<h1 style="background-color: darkgoldenrod;color: brown;">CREDIT CARD HOLDERS</h1>
+<table style="border: dotted;">
+{% for x in creditcard %}
+    <tr>
+    <td style="font-size: 30px; width:900px;text-align: center;padding: 40px;"><a href="{{ x.id }}/details">{{ x.name }}</a></td>
+    </tr>
+{% endfor %}
+</table>
+</center>
+</body>
+</html>
